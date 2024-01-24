@@ -16,3 +16,10 @@ txt = txt.upper()
 # ex 6
 txt = "Hello World"
 txt = txt.lower()
+# ex 7
+txt = "Hello World"
+txt = txt.replace("H","J")
+# ex 8
+age = 36
+txt = "My name is John, and I am {}"
+print(txt.format(age))
